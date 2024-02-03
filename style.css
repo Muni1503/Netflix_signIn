@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    margin-left: 37%;
+    margin-top:5%;
+    
+}
+.top-text h2{
+    color:red;
+    font-weight: bold;
+    font-size: 45px;
+}
+.form h1{
+    color:white;
+}
+.form input[type="text"],
+.form input[type="password"]{
+    width:40%;
+    padding:1%;
+    font-size: 20px;
+    color:white;
+    background: #141414;
+    border:0.5px solid rgb(82, 80, 80);
+    border-radius: 5px;
+    margin-top:20px; 
+}
+.form button{
+    width:42.5%;
+    padding:1%;
+    font-size: 20px;
+    color:white;
+    background: #cb1616;
+    border:0.5px solid #141414;
+    border-radius: 5px;
+    margin-top:20px; 
+}
+.form button:active{
+    background: #141414;
+}
+.Forgot_password h3{
+    color:white;
+    margin-left:13%;
+}
+.checkbox{
+    margin-top: 1rem;
+    color: #737373;
+}
+.remember-me{
+    display: flex;
+    color:white;
+}
+.remember-me p{
+    margin-left: 1%;
+    font-size: 1.1rem;
+}
+.remember-me input[type="checkbox"]{
+    transform:scale(2.0);
+    border:none;
+}
+   
+
+.bottom-text .first-line a{
+    color:white;
+    text-decoration: none;
+}
+.bottom-text .first-line,
+.bottom-text .second-line{
+    color:#636262
+}
+.bottom-text .second-line a{
+    text-decoration: none;
+    color:blue;
+}
+@media only screen and (max-width: 480px) {
+    body {
+        padding:0;
+        margin:0;
+        margin-left:15%;
+    }
+    .top-text h2,
+    .form h1{
+        font-size: 25px;
+    }
+    .form input[type="text"],
+    .form input[type="password"]{
+        font-size: 15px;
+        width:70%;
+    }
+    .form button{
+        width:73%;
+        font-size: 15px;
+    }
+    .Forgot_password{
+        font-size: 14px;
+        padding-left: 40px;
+    }
+    .remember-me input[type="checkbox"]{
+        transform:scale(1.0);
+        border:none;
+    }
+    .remember-me p{
+        margin-left: 1%;
+        font-size: 0.9rem;
+    }
+    .bottom-text .first-line,
+    .bottom-text .second-line{
+        font-size: 15px;
+    }
+}
+
+
+
+
+ 
+ 
+
+}
+
+
+
+
+
+
