@@ -5,12 +5,12 @@ body {
     background-color: #141414;
     margin-left: 37%;
     margin-top:5%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/background_img.jpg);
     
 }
-.top-text h2{
-    color:red;
-    font-weight: bold;
-    font-size: 45px;
+.logo{
+    width: 20%;
+    height: 10%;
 }
 .form h1{
     color:white;
@@ -59,25 +59,63 @@ body {
     transform:scale(2.0);
     border:none;
 }
-   
-
 .bottom-text .first-line a{
     color:white;
     text-decoration: none;
 }
 .bottom-text .first-line,
 .bottom-text .second-line{
-    color:#636262
+    color:#878585
 }
 .bottom-text .second-line a{
     text-decoration: none;
     color:blue;
 }
+.line{
+    width:45%;
+}
+.footer{
+    margin:0%;
+    padding:0;
+}
+.footer_call{
+    color: white;
+    font-weight: 100;
+}
+.footer_faq_help,
+.footer_terms_privacy,
+.footer_cookie_corporate{
+    list-style: none;
+    display: flex;
+}
+.footer_faq_help a,
+.footer_terms_privacy a,
+.footer_cookie_corporate a{
+    color:white;
+}
+.footer_faq_help .second{
+    padding-left: 12rem;
+}
+.footer_terms_privacy .second{
+    padding-left: 8rem;
+}
+.footer_cookie_corporate .second{
+    padding-left: 5rem;
+}
+.footer_dropdown{
+ padding: 1%;
+ font-size: 14 px;
+ color:white;
+ background: black;
+}
 @media only screen and (max-width: 480px) {
     body {
         padding:0;
         margin:0;
-        margin-left:15%;
+    }
+    .container,
+    .footer{
+        margin-left: 15%;
     }
     .top-text h2,
     .form h1{
@@ -108,15 +146,15 @@ body {
     .bottom-text .second-line{
         font-size: 15px;
     }
+    .line{
+        padding:0;
+        margin-right:10%;
+        width:100%;
+    }
 }
 
 
 
-
- 
- 
-
-}
 
 
 

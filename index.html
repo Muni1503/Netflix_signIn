@@ -7,32 +7,62 @@
     <title>Netflix Sign In</title>
 </head>
 <body>
-    <div class="container">
-        <div class="top-text">
-            <h2>NETFLIX</h2>
-            <form class="form">
-                <h1>Sign In</h1>
-                <div>
-                    <input type="text" id="email_or_phNo" placeholder="Email or phone number">
-                </div>
-                <div>
-                    <input type="password" id="password" placeholder="Password">
-                </div>
-                <div>
-                    <button>Sign In</button>
-                </div>
-                <div class="Forgot_password">
-                    <h3>Forgot password?</h3>
-                </div>
-                <div class="remember-me">
+    <div class="main">
+        <div class="container">
+            <div class="top-text">
+                <img class="log" src="./img/login.png" alt="">
+                <form class="form">
+                    <h1>Sign In</h1>
+                    <div>
+                        <input type="text" id="email_or_phNo" placeholder="Email or phone number">
+                    </div>
+                    <div>
+                        <input type="password" id="password" placeholder="Password">
+                    </div>
+                    <div>
+                        <button>Sign In</button>
+                    </div>
+                    <div class="Forgot_password">
+                        <h3>Forgot password?</h3>
+                    </div>
+                    <div class="remember-me">
                         <input type="checkbox">
                         <p>Remember Me</p>
-                </div>
-            </form>
+                    </div>
+                </form>
+            </div>
+            <div class="bottom-text">
+                <p class="first-line">New to Netflix? <a href="#" class="sign-up-link">Sign up now.</a></p>
+                <p class="second-line">This page is protected by Google reCAPTCHA to<br> ensure you're not a bot. <a href="">Learn More</a></p>
+            </div>
         </div>
-        <div class="bottom-text">
-            <p class="first-line">New to Netflix? <a href="#" class="sign-up-link">Sign up now.</a></p>
-            <p class="second-line">This page is protected by Google reCAPTCHA to<br> ensure you're not a bot.<a href="">Learn More</a></p>
+        <div class="line">
+            <hr>
+        </div>
+        <div class="footer">
+            <footer class="footer_netflix">
+                <h3 class="footer_call">Questions? Call 000-800-100-8343</h3>
+                <div class="footer_help">
+                    <ul class="footer_faq_help">
+                        <li><a href="">FAQ</a></li>
+                        <li ><a class="second" href="">Help</a></li>
+                    </ul>  
+                    <ul class="footer_terms_privacy"> 
+                        <li><a href="">Terms of Use</a></li>
+                        <li><a class="second"href="">Privacy</a></li>
+                    </ul>     
+                    <ul class="footer_cookie_corporate">
+                        <li><a href="">Cookie Preferences</a></li>
+                        <li><a class="second"href="">Corporate</a></li>
+                    </ul>
+                </div>
+                <form class="footer_form">
+                    <select class="footer_dropdown">
+                        <option value="english">English</option>
+                        <option value="tamil">Tamil</option>
+                    </select>
+                </form>
+            </footer>
         </div>
     </div>
 </body>
